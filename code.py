@@ -71,7 +71,7 @@ while(current_question<=12):
 	elif(response2=="h"):
 		print(12-current_question, "question(s) remain")
 	elif(response2=="e"):
-	    current_question=13
+	    break
 	current_question+=1
 print("Thanks for playing")
 print("Your points are", points)
